@@ -1,0 +1,50 @@
+#banner {
+    background-color: #8FB9C4;
+}
+
+body {
+    background-color: #f8f9fa;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #343a40;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #ffffff;
+    padding: 15px 0;
+    border-bottom: 1px solid #dee2e6;
+}
+header h1 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: normal;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+.form-select, .form-control {
+    border-radius: 0;
+}
+#mainChart {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 15px;
+}
+.card {
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+    margin-bottom: 15px;
+}
+.card-body {
+    padding: 15px;
+}
+.form-label {
+    font-weight: bold;
+}
+#stats p {
+    margin-bottom: 5px;
+}
