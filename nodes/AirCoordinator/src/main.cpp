@@ -65,5 +65,5 @@ void loop() {
         SERIAL.println(response);      // Afficher la réponse sur le moniteur série
     }*/
 
-    delay(2000);
+    delay(1000);
 }
