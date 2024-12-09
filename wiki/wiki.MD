@@ -28,6 +28,9 @@ La qualité de l’air est un enjeu crucial pour la santé, en particulier pour 
 - Breadboard : ~5 €
 - Câbles : ~5 €
 
+#### Temps de travail :
+- Totalité du temps (temps obligatoire au FABLAB + 8 heures de travail personnel).
+
 #### Coût total : ~222,2 €
 
 ---
@@ -60,6 +63,7 @@ L'unité centrale, constituée d'une Raspberry Pi, reçoit ces données et les e
 
 #### Démonstration du site web
 - **Interface web intuitive** : Permet de visualiser les mesures d'humidité, température et CO2 en temps réel.
+- Possibilité de spécifier une date à analyser, une temporalité ainsi qu'une période. Les données collectées sont moyennisées en fonction de la temporalité sélectionnée.
 
 ![image](img/site_temp.png)
 ![image](img/site_co2.png)
