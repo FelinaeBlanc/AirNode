@@ -48,26 +48,26 @@ L'unité centrale, constituée d'une Raspberry Pi, reçoit ces données et les e
    - Mesure les données de qualité de l’air (CO2, température, humidité) via un capteur SCD30.
    - Transmet ces données à l’unité centrale toutes les 5 secondes via le module XBee.
 
-   - ![image](img/capteur/capteur_A.jpg)
-   - ![image](img/capteur/capteur_B.jpg)
-   - ![image](img/capteur/capteur_G.jpg)
+   - ![image](wiki/img/capteur/capteur_A.jpg)
+   - ![image](wiki/img/capteur/capteur_B.jpg)
+   - ![image](wiki/img/capteur/capteur_G.jpg)
 
 2. **AirNode - Unité centrale**
    - Reçoit les données grâce à un module XBee.
    - Stocke les données dans une base SQLite.
    - Héberge un site web Flask en Python permettant de visualiser les mesures en temps réel via des graphiques dynamiques.
 
-   - ![image](img/unite_centrale/unite_centrale_A.jpg)
-   - ![image](img/unite_centrale/unite_centrale_B.jpg)
-   - ![image](img/unite_centrale/unite_centrale_C.jpg)
+   - ![image](wiki/img/unite_centrale/unite_centrale_A.jpg)
+   - ![image](wiki/img/unite_centrale/unite_centrale_B.jpg)
+   - ![image](wiki/img/unite_centrale/unite_centrale_C.jpg)
 
 #### Démonstration du site web
 - **Interface web intuitive** : Permet de visualiser les mesures d'humidité, température et CO2 en temps réel.
 - Possibilité de spécifier une date à analyser, une temporalité ainsi qu'une période. Les données collectées sont moyennisées en fonction de la temporalité sélectionnée.
 
-![image](img/site_temp.png)
-![image](img/site_co2.png)
-![image](img/site_hum.png)
+![image](wiki/img/site_temp.png)
+![image](wiki/img/site_co2.png)
+![image](wiki/img/site_hum.png)
 ---
 
 ### Bilan
