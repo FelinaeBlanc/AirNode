@@ -35,7 +35,10 @@ void setup() {
 void loop() {
     float result[3] = {0};
 
+    // Vérifier si le capteur est disponible
     if (scd30.isAvailable()) {
+
+        // Lire les données du capteur... CO2, Température et Humidité
         scd30.getCarbonDioxideConcentration(result);
         SERIAL.print("Carbon Dioxide Concentration is: ");
         SERIAL.print(result[0]);
@@ -52,18 +55,6 @@ void loop() {
         String message = moduleID + "," + String(result[0]) + "," + String(result[1]) + "," + String(result[2]);
         xbeeSerial.println(message);
     }
-
-    // Attendre une réponse du XBee
-    /*if (xbeeSerial.available()) {
-        SERIAL.println("Available");
-        String response = "";
-        while (xbeeSerial.available()) {
-        char c = xbeeSerial.read();  // Lire chaque caractère reçu
-        response += c;               // Ajouter le caractère au message
-        }
-        SERIAL.print("Réponse du XBee : ");
-        SERIAL.println(response);      // Afficher la réponse sur le moniteur série
-    }*/
 
     delay(3000);// Envoie données toutes les 30 secondes
 }
