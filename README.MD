@@ -12,24 +12,32 @@ La qualité de l’air est un enjeu crucial pour la santé, en particulier pour 
 
 ## 3) Matériel utilisé et coût
 
-#### Pour un module capteur de qualité d’air (~118,6 €) :
-- Carte Arduino UNO : ~20 €
-- Module UartSbee V5.0 : ~5 €
-- Module Xbee Pro 51 (S5?) avec antenne : ~33,60 €
-- Module SCD30 (capteur) : ~50 €
-- Module SparkFun Logic Level Converter - 3.3V to 5V : ~5 €
-- Breadboard : ~5 €
-- Câbles : ~5 €
 
-#### Pour l’unité centrale (~103,6 €) :
-- Carte Raspberry Pi 3 : ~55 €
-- Module UartSbee V5.0 : ~5 €
-- Module Xbee Pro 51 (S5?) avec antenne : ~33,60 €
-- Breadboard : ~5 €
-- Câbles : ~5 €
+### Matériel pour un Nœud Capteur de Qualité d'Air (~118,6 €)
+| **Composant**                                  | **Prix**    |
+|-----------------------------------------------|------------:|
+| Carte **Arduino UNO**                         | ~20 €     |
+| Module **UartSbee V5.0**                      | ~5 €      |
+| Module **XBee Pro S5** avec antenne           | ~33,60 €  |
+| Module **SCD30** (capteur CO2/temp/humidité)  | ~50 €     |
+| Module **Logic Level Converter** 3.3V - 5V    | ~5 €      |
+| Breadboard                                    | ~5 €      |
+| Câbles                                       | ~5 €      |
+
+### Matériel pour l'Unité Centrale (~103,6 €)
+| **Composant**                                  | **Prix**    |
+|-----------------------------------------------|------------:|
+| Carte **Raspberry Pi 3**                      | ~55 €     |
+| Carte **SD 16 Go**                            | ~10 €     |
+| Lecteur de **Carte SD**                       | ~8 €      |
+| Module **UartSbee V5.0**                      | ~5 €      |
+| Module **XBee Pro S5** avec antenne           | ~33,60 €  |
+| Breadboard                                    | ~5 €      |
+| Câbles                                       | ~5 €      |
+
 
 #### Temps de travail :
-- Totalité du temps (temps obligatoire au FABLAB + 8 heures de travail personnel).
+- Totalité du temps (temps obligatoire au FABLAB + 10 heures de travail personnel).
 
 #### Coût total : ~222,2 €
 
