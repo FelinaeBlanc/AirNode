@@ -155,10 +155,10 @@ Pour exécuter le script **xbee_receiver.py** avec les droits administrateur et 
    sudo python3 xbee_module/xbee_receiver.py &
    ```
 
-#### 7. **Installation du Serveur Web**
+#### 7. **Lancer le Serveur Web**
 - Accédez au dossier du script :
    ```sh
-   cd web/script_start
+   cd python_web/
    ```
 - Lancez le script Flask :
    ```sh
