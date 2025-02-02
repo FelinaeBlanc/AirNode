@@ -12,7 +12,6 @@ La qualité de l’air est un enjeu crucial pour la santé, en particulier pour 
 
 ## 3) Matériel utilisé et coût
 
-
 ### Matériel pour un Nœud Capteur de Qualité d'Air (~118,6 €)
 | **Composant**                                  | **Prix**    |
 |-----------------------------------------------|------------:|
