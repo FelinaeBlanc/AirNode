@@ -56,5 +56,5 @@ void loop() {
         xbeeSerial.println(message);
     }
 
-    delay(3000);// Envoie données toutes les 30 secondes
+    delay(300);// Envoie données toutes les 30 secondes
 }
